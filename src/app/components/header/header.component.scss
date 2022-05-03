@@ -1,0 +1,28 @@
+.logo{ display: flex;
+  align-items: center;
+
+   img{
+     width: 600px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+}
+
+.nav{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+
+  background-color: rgb(245, 199, 50);
+
+    li{
+      list-style-type: none;
+      text-align: center;
+      padding: 6px;
+    }
+}
+
+a{
+  text-decoration: none;
+}
